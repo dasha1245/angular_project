@@ -1,0 +1,16 @@
+<div class="cards">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>{{episode.name}}</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <div><i>Released in {{episode.air_date}}</i></div>
+      <div><i>Episode</i>: {{episode.episode}}</div>
+    </mat-card-content>
+
+    <mat-card-actions class="buttons">
+      <button mat-button class="button" [routerLink]="episode.id.toString()">See more details</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

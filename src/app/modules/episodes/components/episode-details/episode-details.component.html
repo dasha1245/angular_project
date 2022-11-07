@@ -1,0 +1,9 @@
+<div class="toolbar">
+  <h2>{{selectedEpisode.name}}</h2>
+  <p>Episode: {{selectedEpisode.episode}}</p>
+</div>
+
+<div *ngIf="selectedEpisode" class="cards">
+  <app-cheracters *ngFor="let url of selectedEpisode.characters" [url]="url" [selectedEpisode]="selectedEpisode"></app-cheracters>
+</div>
+

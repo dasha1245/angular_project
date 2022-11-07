@@ -1,0 +1,18 @@
+
+<div *ngIf="character" class="cards">
+  <mat-card class="card">
+
+    <mat-card-header class="header">
+      <mat-card-title>{{character.name}}</mat-card-title>
+      <mat-card-subtitle>{{character.status}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <img mat-card-image src="{{character.image}}" alt="character image" class="image">
+      <div>Gender: {{character.gender}} </div>
+      <div>Spices: {{character.species}} </div>
+      <div>Type: {{character.type}}</div>
+      <div>Origin: {{character.origin.name}}</div>
+    </mat-card-content>
+  </mat-card>
+</div>

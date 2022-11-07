@@ -1,0 +1,13 @@
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.link:hover{
+  cursor: pointer;
+}
+
+.active{
+  color: black;
+}

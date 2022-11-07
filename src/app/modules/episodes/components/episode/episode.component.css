@@ -1,0 +1,18 @@
+.card{
+  height: 200px;
+  width: 200px;
+  margin: 7px;
+  background: rgba(21, 6, 125, 0.16);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+.button:hover{
+  background: rgba(0, 0, 139, 0.29);
+}

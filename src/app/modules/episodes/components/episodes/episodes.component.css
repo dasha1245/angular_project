@@ -1,0 +1,11 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
