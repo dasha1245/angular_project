@@ -13,9 +13,6 @@ export class CheractersComponent implements OnInit {
   @Input()
   url:string
 
-  @Input()
-  selectedEpisode:IEpisode
-
   id:number
   character:ICharacter
 
